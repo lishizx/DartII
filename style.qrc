@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="/">
+    <file>icon.ico</file>
+    <file>image/hostback.jpg</file>
+    <file>image/loading.gif</file>
+    <file>image/set.png</file>
+    <file>image/shuaxin.png</file>
+    <file>image/welcome.jpg</file>
+    <file>image/quit.png</file>
+  </qresource>
+</RCC>

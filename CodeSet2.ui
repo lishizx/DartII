@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CodeSet2</class>
+ <widget class="QWidget" name="CodeSet2">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>694</width>
+    <height>320</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>320</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>16777215</width>
+    <height>360</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>二维码配置</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normalon>:/image/icon.png</normalon>
+   </iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QDateTimeEdit" name="dat">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>70</y>
+     <width>91</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="displayFormat">
+    <string>yyyy/M/d</string>
+   </property>
+   <property name="calendarPopup">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="keyint">
+   <property name="geometry">
+    <rect>
+     <x>341</x>
+     <y>198</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="project">
+   <property name="geometry">
+    <rect>
+     <x>341</x>
+     <y>46</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="tiefrom">
+   <property name="geometry">
+    <rect>
+     <x>341</x>
+     <y>130</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>159</x>
+     <y>156</y>
+     <width>72</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>原料批号10位</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_15">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>102</y>
+     <width>90</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>注塑机台编号3位</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="mode">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>212</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="hole">
+   <property name="geometry">
+    <rect>
+     <x>341</x>
+     <y>18</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="fromid">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>156</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="picbate">
+   <property name="geometry">
+    <rect>
+     <x>341</x>
+     <y>74</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="product">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>44</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>159</x>
+     <y>128</y>
+     <width>102</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>原料供应商代码1位</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>116</x>
+     <y>72</y>
+     <width>156</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>注塑成型日期（年、月、日）</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>159</x>
+     <y>16</y>
+     <width>66</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>公司代码1位</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_17">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>198</y>
+     <width>121</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>产品序列号4位26进制</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="machine">
+   <property name="geometry">
+    <rect>
+     <x>341</x>
+     <y>102</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>159</x>
+     <y>44</y>
+     <width>66</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>产品代码1位</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="froms">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>128</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>18</y>
+     <width>42</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>穴号1位</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="compy">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>16</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>100</y>
+     <width>60</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>白班1</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>夜班2</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>46</y>
+     <width>186</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>项目代码（B400=XX, B404=X4）2位</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_14">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>74</y>
+     <width>66</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>图纸版本2位</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_19">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>230</y>
+     <width>121</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:red;</string>
+   </property>
+   <property name="text">
+    <string>产品序列号不存数据库</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>159</x>
+     <y>212</y>
+     <width>42</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>模号3位</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>159</x>
+     <y>184</y>
+     <width>90</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>注塑参数代码1位</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="dropid">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>184</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_16">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>130</y>
+     <width>102</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>铁件供应商代码1位</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>86</x>
+     <y>100</y>
+     <width>132</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>班别（白班=1，夜班=2）</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="codeshow">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>250</y>
+     <width>441</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cunchu">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>250</y>
+     <width>90</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:5px;
+background-color:#188eee;
+color:#ffffff;
+font-size:16px;</string>
+   </property>
+   <property name="text">
+    <string>保存配置</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="workorder">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>160</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_18">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>160</y>
+     <width>121</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>工单号</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="style.qrc"/>
+ </resources>
+ <connections/>
+</ui>
